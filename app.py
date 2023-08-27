@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import math
+import pandas as pd
 
 # import the model
 pipe = pickle.load(open('pipe.pkl','rb'))
